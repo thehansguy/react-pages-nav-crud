@@ -28,9 +28,9 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />} />
 
         <Route path="/what-we-do/*" element={<WhatWeDo />}>
-          {/* <Route path=":service-1" element={<Service1 />} />
+          <Route path=":service-1" element={<Service1 />} />
           <Route path=":service-2" element={<Service2 />} />
-          <Route path=":service-3" element={<Service3 />} /> */}
+          <Route path=":service-3" element={<Service3 />} />
         </Route>
 
         <Route path="/get-in-touch" element={<GetInTouch />} />

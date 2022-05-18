@@ -42,6 +42,14 @@ nav a:active {
   height: 85vh;
   border: 1px solid red;
 }
+.sub-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+
+  height: 50vh;
+}
 .footer {
   grid-area: footer;
   border: 1px solid red;
